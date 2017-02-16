@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B51C8DDCB45A433953E42415 /* Pods_pokedex3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D63648BAF9DF3729749FBC /* Pods_pokedex3.framework */; };
 		CF65A3501E54EB800065E594 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65A34F1E54EB800065E594 /* Constants.swift */; };
+		CF65A3521E5649D80065E594 /* LavenderTown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF65A3511E5649D80065E594 /* LavenderTown.mp3 */; };
 		CFEC97321E52368E00CA06AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC97311E52368E00CA06AE /* AppDelegate.swift */; };
 		CFEC97341E52368E00CA06AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC97331E52368E00CA06AE /* ViewController.swift */; };
 		CFEC97371E52368E00CA06AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEC97351E52368E00CA06AE /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		428ECBF092A4ADC3B9CBC74C /* Pods-pokedex3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex3/Pods-pokedex3.debug.xcconfig"; sourceTree = "<group>"; };
 		4A1356B562CB3D9A98955B5B /* Pods-pokedex3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex3.release.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex3/Pods-pokedex3.release.xcconfig"; sourceTree = "<group>"; };
 		CF65A34F1E54EB800065E594 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CF65A3511E5649D80065E594 /* LavenderTown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LavenderTown.mp3; sourceTree = "<group>"; };
 		CFEC972E1E52368E00CA06AE /* pokedex3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEC97311E52368E00CA06AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFEC97331E52368E00CA06AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = pokedex3/ViewController.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				CFEC975F1E523A4C00CA06AE /* pokemon.csv */,
 				CFEC97701E52847C00CA06AE /* music.png */,
 				CFEC97721E52849200CA06AE /* music.mp3 */,
+				CF65A3511E5649D80065E594 /* LavenderTown.mp3 */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -307,6 +310,7 @@
 				CFEC976C1E52826F00CA06AE /* Pokemon.ttf in Resources */,
 				CFEC973C1E52368E00CA06AE /* LaunchScreen.storyboard in Resources */,
 				CFEC97391E52368E00CA06AE /* Assets.xcassets in Resources */,
+				CF65A3521E5649D80065E594 /* LavenderTown.mp3 in Resources */,
 				CFEC97601E523A4C00CA06AE /* pokemon.csv in Resources */,
 				CFEC97371E52368E00CA06AE /* Main.storyboard in Resources */,
 				CFEC97731E52849200CA06AE /* music.mp3 in Resources */,
