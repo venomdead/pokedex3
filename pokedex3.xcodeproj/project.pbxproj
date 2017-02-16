@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B51C8DDCB45A433953E42415 /* Pods_pokedex3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D63648BAF9DF3729749FBC /* Pods_pokedex3.framework */; };
+		CF65A3501E54EB800065E594 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF65A34F1E54EB800065E594 /* Constants.swift */; };
 		CFEC97321E52368E00CA06AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC97311E52368E00CA06AE /* AppDelegate.swift */; };
 		CFEC97341E52368E00CA06AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEC97331E52368E00CA06AE /* ViewController.swift */; };
 		CFEC97371E52368E00CA06AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEC97351E52368E00CA06AE /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 		31D63648BAF9DF3729749FBC /* Pods_pokedex3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pokedex3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		428ECBF092A4ADC3B9CBC74C /* Pods-pokedex3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex3/Pods-pokedex3.debug.xcconfig"; sourceTree = "<group>"; };
 		4A1356B562CB3D9A98955B5B /* Pods-pokedex3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokedex3.release.xcconfig"; path = "Pods/Target Support Files/Pods-pokedex3/Pods-pokedex3.release.xcconfig"; sourceTree = "<group>"; };
+		CF65A34F1E54EB800065E594 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CFEC972E1E52368E00CA06AE /* pokedex3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFEC97311E52368E00CA06AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFEC97331E52368E00CA06AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = pokedex3/ViewController.swift; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				CFEC97691E5275C100CA06AE /* csv.swift */,
+				CF65A34F1E54EB800065E594 /* Constants.swift */,
 			);
 			name = Util;
 			sourceTree = "<group>";
@@ -384,6 +387,7 @@
 				CFEC97341E52368E00CA06AE /* ViewController.swift in Sources */,
 				CFEC97321E52368E00CA06AE /* AppDelegate.swift in Sources */,
 				CFEC97751E53980E00CA06AE /* PokemonDetailVC.swift in Sources */,
+				CF65A3501E54EB800065E594 /* Constants.swift in Sources */,
 				CFEC97631E523BB200CA06AE /* Pokemon.swift in Sources */,
 				CFEC976A1E5275C100CA06AE /* csv.swift in Sources */,
 			);
@@ -632,6 +636,7 @@
 				CFEC97581E52368E00CA06AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFEC97591E52368E00CA06AE /* Build configuration list for PBXNativeTarget "pokedex3Tests" */ = {
 			isa = XCConfigurationList;
@@ -640,6 +645,7 @@
 				CFEC975B1E52368E00CA06AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFEC975C1E52368E00CA06AE /* Build configuration list for PBXNativeTarget "pokedex3UITests" */ = {
 			isa = XCConfigurationList;
@@ -648,6 +654,7 @@
 				CFEC975E1E52368E00CA06AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
